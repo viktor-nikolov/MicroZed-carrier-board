@@ -62,4 +62,4 @@ Second GPIO signal is connected to ports with even pin numbers. Third GPIO signa
 
 Instance of a clock_generator module descales input 50 MHz signal from the oscillator X1 by factor 10,000.
 
-<img src="Vivado_Diagram.png" title="" alt="" width="548">
+<img title="" src="Vivado_Diagram.png" alt="" width="592">
