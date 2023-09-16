@@ -1,4 +1,4 @@
-# Demo HW & SW
+# Board demo HW & SW
 
 The demo does following:
 
@@ -19,7 +19,7 @@ The demo does following:
 
 &nbsp;
 
-Following pins are <u>not used</u> by the demo:
+Following pins are <ins>not used</ins> by the demo:
 
 - J3_32_UART_RX &ndash; serial receive pin from the USB-to-UART chip.
 
