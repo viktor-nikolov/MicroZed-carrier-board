@@ -4,6 +4,6 @@
 
 - MicroZed_carrier_board_constraints_master.xdc – a general .xdc for the carrier board.
   
-  - To use it in a project uncomment the lines corresponding to used pins and, if needed, rename the used ports according to the top level signal names in the project.
+  - To use it in a Vivado project uncomment the lines corresponding to used pins and, if needed, rename the used ports according to the top level signal names in the project.
 
 
