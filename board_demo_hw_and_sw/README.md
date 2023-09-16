@@ -54,7 +54,7 @@ First signal drives the LEDs. Activation of a switch drives a LED low despite GP
 Second GPIO signal is connected to ports with even pin numbers. Third GPIO signal drives ports with odd pin numbers.
 
 - Note: I didn't create and connect 106 output ports in the Vivado Diagram by clicking and dragging.:smiley: I created a TCL script using [create_bd_port](https://docs.xilinx.com/r/en-US/ug835-vivado-tcl-commands/create_bd_port) and [connect_bd_net](https://docs.xilinx.com/r/en-US/ug835-vivado-tcl-commands/connect_bd_net) commands.
-  For example the port J3_02 was added to the diagram created by a command: 
+  For example the port J3_02 was added to the diagram by a command: 
   
   ```
   create_bd_port -dir O -type data J3_02; connect_bd_net [get_bd_pins /xlslice_1/Dout] [get_bd_ports /J3_02]
