@@ -43,4 +43,4 @@ Following pins are <ins>not used</ins> by the demo:
   
   - J4_34..38
 
-## Demo code
+## Demo design and code
