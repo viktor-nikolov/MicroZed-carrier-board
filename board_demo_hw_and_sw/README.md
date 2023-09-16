@@ -60,6 +60,6 @@ Second GPIO signal is connected to ports with even pin numbers. Third GPIO signa
   create_bd_port -dir O -type data J3_02; connect_bd_net [get_bd_pins /xlslice_1/Dout] [get_bd_ports /J3_02]
   ```
 
-Instance of a [clock_generator](https://github.com/viktor-nikolov/MicroZed-carrier-board/blob/main/board_demo_hw_and_sw/board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.srcs/sources_1/new/clock_generator.v) module descales input 50 MHz signal from the oscillator X1 by factor 10,000.
+Instance of a [clock_generator](board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.srcs/sources_1/new/clock_generator.v) module descales input 50 MHz signal from the oscillator X1 by factor 10,000.
 
 <img title="" src="Vivado_Diagram.png" alt="" width="592">
