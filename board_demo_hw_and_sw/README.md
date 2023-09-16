@@ -2,22 +2,24 @@
 
 ## Demo functionality
 
-The demo does following:
+The demo does the following:
 
 - Board's LED1 and LED2 blink with 2.5 Hz frequency.
 
-- Board's SWITCH1 disables blinking of LED1, SWITCH2 disables LED2.
+- Board's SWITCH1 disables blinking of LED1. SWITCH2 disables LED2.
 
 - Testing serial output is provided on the UART Micro-USB connector. 
   
-  - Connect your computer to the board's UART Micro-USB connector. A new COM port should became available in the operating system. Connect a terminal program (e.g. [PuTTY](https://www.putty.org/) to given COM port, set the speed to 9600 baud. You then shall see increasing series of numbers in the terminal (25 lines per second).
+  - Connect your computer to the board's UART Micro-USB connector. A new COM port should became available in the operating system. Connect a terminal program (e.g. [PuTTY](https://www.putty.org/)) to given COM port, set the speed to 9600 baud. You then shall see increasing series of numbers in the terminal (25 lines per second).
   - Activity of the board's serial output is also indicated by fast blinking yellow TX LED on the board.
 
-- J3_1 provides the 3.3 V square wave signal of frequency 5 kHz, which is ten thousand times de-scaled 50 MHz frequency signal from the oscillator X1.
+- J3_1 provides the 3.3 V square wave signal of frequency 5 kHz, which is exactly ten thousand times de-scaled 50 MHz frequency signal from the oscillator X1.
 
-- Other pins with odd pin number on J3, J4 and PMODs provide the square wave signal of frequency 166.6 Hz (5 V on PMOD1 and PMOD2, 3.3 V on other ports).
+- Other pins with odd pin number on J3, J4 and PMODs provide the square wave signal of frequency 166.6 Hz (5 V on PMOD1 and PMOD2, 3.3 V on other connectors).
 
 - Pins with even pin number on J3, J4 and PMODs provide the square wave signal of frequency 80.6 Hz.
+
+&nbsp;
 
 Following pins are <ins>not used</ins> by the demo:
 
