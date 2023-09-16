@@ -44,3 +44,7 @@ Following pins are <ins>not used</ins> by the demo:
   - J4_34..38
 
 ## Demo design and code
+
+The demo uses simple HW design and standalone bare-metal code running on Zynq ARM core.
+
+<img src="Vivado_Diagram.png" title="" alt="" width="548">
