@@ -4,7 +4,7 @@ Text
 
 Following pins are not used in the demo:
 
-- J3_32_UART_RX -- test
+- J3_32_UART_RX &ndash; test
 
 - Following pins are not available when using MicroZed 7010, because respective Zynq pins are simply not available on the 7010 chip:
   
@@ -19,5 +19,3 @@ Following pins are not used in the demo:
   - J4_18..19
   
   - J4_34..38
-
-
