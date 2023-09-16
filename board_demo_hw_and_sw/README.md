@@ -1,5 +1,7 @@
 # Board demo HW & SW
 
+## Demo functionality
+
 The demo does following:
 
 - Board's LED1 and LED2 blink with 2.5 Hz frequency.
@@ -16,8 +18,6 @@ The demo does following:
 - Other pins with odd pin number on J3, J4 and PMODs provide the square wave signal of frequency 166.6 Hz (5 V on PMOD1 and PMOD2, 3.3 V on other ports).
 
 - Pins with even pin number on J3, J4 and PMODs provide the square wave signal of frequency 80.6 Hz.
-
-&nbsp;
 
 Following pins are <ins>not used</ins> by the demo:
 
@@ -40,3 +40,5 @@ Following pins are <ins>not used</ins> by the demo:
   - J4_18..19
   
   - J4_34..38
+
+## Demo code
