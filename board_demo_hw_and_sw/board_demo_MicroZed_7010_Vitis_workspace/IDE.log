@@ -1,0 +1,30 @@
+20:30:05 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7010_Vitis_workspace/IDE.log'.
+20:30:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7010_Vitis_workspace\temp_xsdb_launch_script.tcl
+20:30:06 INFO  : Registering command handlers for Vitis TCF services
+20:30:06 INFO  : Platform repository initialization has completed.
+20:30:07 INFO  : XSCT server has started successfully.
+20:30:07 INFO  : plnx-install-location is set to ''
+20:30:07 INFO  : Successfully done setting XSCT server connection channel  
+20:30:07 INFO  : Successfully done setting workspace for the tool. 
+20:30:07 INFO  : Successfully done query RDI_DATADIR 
+20:37:32 INFO  : Result from executing command 'getProjects': system
+20:37:32 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:37:33 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+20:37:50 INFO  : Result from executing command 'removePlatformRepo': 
+20:38:10 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7010_Vitis_workspace/IDE.log'.
+20:38:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7010_Vitis_workspace\temp_xsdb_launch_script.tcl
+20:38:12 INFO  : Registering command handlers for Vitis TCF services
+20:38:12 INFO  : Platform repository initialization has completed.
+20:38:13 INFO  : XSCT server has started successfully.
+20:38:13 INFO  : Successfully done setting XSCT server connection channel  
+20:38:13 INFO  : plnx-install-location is set to ''
+20:38:13 INFO  : Successfully done query RDI_DATADIR 
+20:38:13 INFO  : Successfully done setting workspace for the tool. 
+20:38:31 INFO  : Result from executing command 'getProjects': system
+20:38:31 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:38:31 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+20:38:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+20:39:12 ERROR : bitstream is not compatible with the target
+20:39:28 INFO  : Result from executing command 'removePlatformRepo': 

@@ -1,0 +1,289 @@
+17:36:38 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/IDE.log'.
+17:36:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\temp_xsdb_launch_script.tcl
+17:36:39 INFO  : Registering command handlers for Vitis TCF services
+17:36:39 INFO  : Platform repository initialization has completed.
+17:36:40 INFO  : XSCT server has started successfully.
+17:36:40 INFO  : Successfully done setting XSCT server connection channel  
+17:36:40 INFO  : plnx-install-location is set to ''
+17:36:40 INFO  : Successfully done query RDI_DATADIR 
+17:36:40 INFO  : Successfully done setting workspace for the tool. 
+17:47:55 INFO  : Hardware specification for platform project 'system' is updated.
+17:48:10 INFO  : Result from executing command 'getProjects': system
+17:48:10 INFO  : Result from executing command 'getPlatforms': system|C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/system.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:48:11 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+17:48:12 INFO  : The hardware specification used by project 'board_demo' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+17:48:12 INFO  : The file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\bitstream\system_wrapper.bit' stored in project is removed.
+17:48:12 INFO  : The updated bitstream files are copied from platform to folder 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\bitstream' in project 'board_demo'.
+17:48:12 INFO  : The file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\psinit\ps7_init.tcl' stored in project is removed.
+17:48:15 INFO  : The updated ps init files are copied from platform to folder 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\psinit' in project 'board_demo'.
+17:48:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:48:32 ERROR : no targets found with "jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-13722093-0"". available targets:
+  1  APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+17:48:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:48:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:48:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+17:48:54 INFO  : Device configured successfully with "C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit"
+17:49:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:49:09 INFO  : Jtag cable 'Platform Cable USB II 00001d9a023001' is selected.
+17:49:09 INFO  : 'jtag frequency' command is executed.
+17:49:09 INFO  : Context for 'APU' is selected.
+17:49:09 INFO  : System reset is completed.
+17:49:12 INFO  : 'after 3000' command is executed.
+17:49:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+17:49:24 INFO  : Device configured successfully with "C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit"
+17:49:24 INFO  : Context for 'APU' is selected.
+17:49:24 INFO  : Hardware design and registers information is loaded from 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa'.
+17:49:24 INFO  : 'configparams force-mem-access 1' command is executed.
+17:49:24 INFO  : Context for 'APU' is selected.
+17:49:24 INFO  : Sourcing of 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl' is done.
+17:49:25 INFO  : 'ps7_init' command is executed.
+17:49:25 INFO  : 'ps7_post_config' command is executed.
+17:49:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:49:27 INFO  : The application 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Debug/board_demo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:49:27 INFO  : 'configparams force-mem-access 0' command is executed.
+17:49:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}
+fpga -file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Debug/board_demo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:49:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:49:27 INFO  : 'con' command is executed.
+17:49:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:49:27 INFO  : Launch script is exported to file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo_system\_ide\scripts\debugger_board_demo-default.tcl'
+17:51:59 INFO  : Disconnected from the channel tcfchan#3.
+19:03:08 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/IDE.log'.
+19:03:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\temp_xsdb_launch_script.tcl
+19:03:09 INFO  : Registering command handlers for Vitis TCF services
+19:03:10 INFO  : Platform repository initialization has completed.
+19:03:10 INFO  : XSCT server has started successfully.
+19:03:10 INFO  : Successfully done setting XSCT server connection channel  
+19:03:10 INFO  : plnx-install-location is set to ''
+19:03:10 INFO  : Successfully done query RDI_DATADIR 
+19:03:10 INFO  : Successfully done setting workspace for the tool. 
+19:03:27 INFO  : Hardware specification for platform project 'system' is updated.
+19:03:36 INFO  : Result from executing command 'getProjects': system
+19:03:36 INFO  : Result from executing command 'getPlatforms': system|C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/system.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:03:37 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:03:39 INFO  : The hardware specification used by project 'board_demo' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+19:03:39 INFO  : The file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\bitstream\system_wrapper.bit' stored in project is removed.
+19:03:39 INFO  : The updated bitstream files are copied from platform to folder 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\bitstream' in project 'board_demo'.
+19:03:39 INFO  : The file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\psinit\ps7_init.tcl' stored in project is removed.
+19:03:41 INFO  : The updated ps init files are copied from platform to folder 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo\_ide\psinit' in project 'board_demo'.
+19:03:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:03:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+19:04:06 INFO  : Device configured successfully with "C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit"
+19:04:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:04:12 INFO  : Jtag cable 'Platform Cable USB II 00001d9a023001' is selected.
+19:04:12 INFO  : 'jtag frequency' command is executed.
+19:04:12 INFO  : Context for 'APU' is selected.
+19:04:12 INFO  : System reset is completed.
+19:04:15 INFO  : 'after 3000' command is executed.
+19:04:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+19:04:26 INFO  : Device configured successfully with "C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit"
+19:04:26 INFO  : Context for 'APU' is selected.
+19:04:26 INFO  : Hardware design and registers information is loaded from 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa'.
+19:04:26 INFO  : 'configparams force-mem-access 1' command is executed.
+19:04:26 INFO  : Context for 'APU' is selected.
+19:04:26 INFO  : Sourcing of 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl' is done.
+19:04:27 INFO  : 'ps7_init' command is executed.
+19:04:27 INFO  : 'ps7_post_config' command is executed.
+19:04:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:04:29 INFO  : The application 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Release/board_demo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:04:29 INFO  : 'configparams force-mem-access 0' command is executed.
+19:04:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}
+fpga -file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Release/board_demo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:04:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:04:29 INFO  : 'con' command is executed.
+19:04:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:04:29 INFO  : Launch script is exported to file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo_system\_ide\scripts\debugger_board_demo-default_1.tcl'
+19:07:08 INFO  : Build configuration of 'board_demo_system' is updated to 'Release'
+19:07:08 INFO  : Build configuration of system project is automatically updated to 'Release'.
+19:07:08 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:07:12 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:07:28 INFO  : Result from executing command 'removePlatformRepo': 
+19:07:47 INFO  : Result from executing command 'getProjects': system
+19:07:47 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:07:47 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:08:08 INFO  : Disconnected from the channel tcfchan#3.
+19:08:20 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/IDE.log'.
+19:08:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\temp_xsdb_launch_script.tcl
+19:08:22 INFO  : Platform repository initialization has completed.
+19:08:22 INFO  : Registering command handlers for Vitis TCF services
+19:08:22 INFO  : XSCT server has started successfully.
+19:08:22 INFO  : plnx-install-location is set to ''
+19:08:22 INFO  : Successfully done setting XSCT server connection channel  
+19:08:22 INFO  : Successfully done query RDI_DATADIR 
+19:08:22 INFO  : Successfully done setting workspace for the tool. 
+19:08:37 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:08:42 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:08:44 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa is already opened
+
+19:12:02 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/IDE.log'.
+19:12:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\temp_xsdb_launch_script.tcl
+19:12:04 INFO  : Registering command handlers for Vitis TCF services
+19:12:04 INFO  : Platform repository initialization has completed.
+19:12:05 INFO  : XSCT server has started successfully.
+19:12:05 INFO  : plnx-install-location is set to ''
+19:12:05 INFO  : Successfully done setting XSCT server connection channel  
+19:12:05 INFO  : Successfully done query RDI_DATADIR 
+19:12:05 INFO  : Successfully done setting workspace for the tool. 
+19:12:40 INFO  : Result from executing command 'removePlatformRepo': 
+19:13:15 INFO  : Result from executing command 'getProjects': system
+19:13:15 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:13:15 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:13:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:13:42 INFO  : Jtag cable 'Platform Cable USB II 00001d9a023001' is selected.
+19:13:42 INFO  : 'jtag frequency' command is executed.
+19:13:42 INFO  : Context for 'APU' is selected.
+19:13:42 INFO  : System reset is completed.
+19:13:45 INFO  : 'after 3000' command is executed.
+19:13:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+19:13:56 INFO  : Device configured successfully with "C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit"
+19:13:56 INFO  : Context for 'APU' is selected.
+19:13:56 INFO  : Hardware design and registers information is loaded from 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa'.
+19:13:56 INFO  : 'configparams force-mem-access 1' command is executed.
+19:13:56 INFO  : Context for 'APU' is selected.
+19:13:56 INFO  : Sourcing of 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl' is done.
+19:13:57 INFO  : 'ps7_init' command is executed.
+19:13:57 INFO  : 'ps7_post_config' command is executed.
+19:13:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:13:59 INFO  : The application 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Release/board_demo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:13:59 INFO  : 'configparams force-mem-access 0' command is executed.
+19:13:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}
+fpga -file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Release/board_demo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:14:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:14:00 INFO  : 'con' command is executed.
+19:14:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:14:00 INFO  : Launch script is exported to file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo_system\_ide\scripts\debugger_board_demo-default_1.tcl'
+19:16:29 INFO  : Result from executing command 'removePlatformRepo': 
+19:16:35 INFO  : Build configuration of 'board_demo_system' is updated to 'Debug'
+19:16:35 INFO  : Build configuration of system project is automatically updated to 'Debug'.
+19:16:39 INFO  : Result from executing command 'getProjects': system
+19:16:39 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:16:40 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:16:49 INFO  : Result from executing command 'removePlatformRepo': 
+19:16:55 INFO  : Result from executing command 'getProjects': system
+19:16:55 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:16:55 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+19:17:22 INFO  : Disconnected from the channel tcfchan#4.
+19:17:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:23 INFO  : Jtag cable 'Platform Cable USB II 00001d9a023001' is selected.
+19:17:23 INFO  : 'jtag frequency' command is executed.
+19:17:26 INFO  : Context for 'APU' is selected.
+19:17:26 INFO  : System reset is completed.
+19:17:29 INFO  : 'after 3000' command is executed.
+19:17:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}' command is executed.
+19:17:40 INFO  : Device configured successfully with "C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit"
+19:17:40 INFO  : Context for 'APU' is selected.
+19:17:40 INFO  : Hardware design and registers information is loaded from 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa'.
+19:17:40 INFO  : 'configparams force-mem-access 1' command is executed.
+19:17:40 INFO  : Context for 'APU' is selected.
+19:17:40 INFO  : Sourcing of 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl' is done.
+19:17:41 INFO  : 'ps7_init' command is executed.
+19:17:41 INFO  : 'ps7_post_config' command is executed.
+19:17:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:17:43 INFO  : The application 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Debug/board_demo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:17:43 INFO  : 'configparams force-mem-access 0' command is executed.
+19:17:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Platform Cable USB II 00001d9a023001" && level==0 && jtag_device_ctx=="jsn-DLC10-00001d9a023001-23727093-0"}
+fpga -file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/board_demo/Debug/board_demo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:17:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:17:43 INFO  : 'con' command is executed.
+19:17:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:17:43 INFO  : Launch script is exported to file 'C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\board_demo_system\_ide\scripts\debugger_board_demo-default.tcl'
+20:19:59 DEBUG : Logs will be stored at 'C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/IDE.log'.
+20:20:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_Vitis_workspace\temp_xsdb_launch_script.tcl
+20:20:01 INFO  : Registering command handlers for Vitis TCF services
+20:20:01 INFO  : Platform repository initialization has completed.
+20:20:02 INFO  : XSCT server has started successfully.
+20:20:02 INFO  : plnx-install-location is set to ''
+20:20:02 INFO  : Successfully done setting XSCT server connection channel  
+20:20:02 INFO  : Successfully done query RDI_DATADIR 
+20:20:02 INFO  : Successfully done setting workspace for the tool. 
+20:28:28 INFO  : Result from executing command 'getProjects': system
+20:28:28 INFO  : Result from executing command 'getPlatforms': system|C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_Vitis_workspace/system/export/system/system.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:28:28 INFO  : Checking for BSP changes to sync application flags for project 'board_demo'...
+20:29:13 INFO  : Result from executing command 'removePlatformRepo': 

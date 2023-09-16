@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Sep 16 18:38:45 2023
+# Process ID: 9540
+# Current directory: c:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33528 C:\MicroZed_projects\board_demo\board_demo_MicroZed_7020_hw\board_demo_MicroZed_7020_hw.xpr
+# Log file: c:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw/vivado.log
+# Journal file: c:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw\vivado.jou
+# Running On: VIKTOR-PC, OS: Windows, CPU Frequency: 3187 MHz, CPU Physical cores: 24, Host memory: 34109 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.xpr
+open_bd_design {C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.srcs/sources_1/bd/system/system.bd}
+update_compile_order -fileset sources_1
+source "c:/Users/vniko/Google Drive/Work/Arduino/KiCad files/MicroZed_carrier_board/bd_create_ports_script_7020.tcl"
+regenerate_bd_layout -routing
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw/system_wrapper.xsa
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/MicroZed_projects/board_demo/board_demo_MicroZed_7020_hw/system_wrapper.xsa
+reset_project

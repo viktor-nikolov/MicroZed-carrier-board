@@ -1,0 +1,8 @@
+20:29:12 **** Clean-only build of configuration Debug for project board_demo_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+
+20:29:12 Build Finished (took 88ms)
+

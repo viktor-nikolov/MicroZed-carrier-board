@@ -1,0 +1,176 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.21276",
+   "Default View_TopLeft":"-823,-236",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "comment_0":"Reduces 50 MHz input to 5 kHz output.",
+   "commentid":"comment_0|",
+   "font_comment_0":"8",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 770 -y 150 -defaultsOSRD -top
+preplace port FIXED_IO -pg 1 -lvl 3 -x 740 -y 150 -defaultsOSRD -top
+preplace port port-id_OSC_50MHZ -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace port port-id_SWITCH1 -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port port-id_SWITCH2 -pg 1 -lvl 0 -x 0 -y 430 -defaultsOSRD
+preplace port port-id_J3_33_UART_TX -pg 1 -lvl 3 -x 910 -y 150 -defaultsOSRD -top
+preplace port port-id_J3_01 -pg 1 -lvl 2 -x 360 -y 150 -defaultsOSRD -top
+preplace port port-id_J3_26 -pg 1 -lvl 4 -x 990 -y 3250 -defaultsOSRD
+preplace port port-id_J3_42 -pg 1 -lvl 4 -x 990 -y 2890 -defaultsOSRD
+preplace port port-id_J3_43 -pg 1 -lvl 4 -x 990 -y 2920 -defaultsOSRD
+preplace port port-id_J3_44 -pg 1 -lvl 4 -x 990 -y 2950 -defaultsOSRD
+preplace port port-id_J3_45 -pg 1 -lvl 4 -x 990 -y 2980 -defaultsOSRD
+preplace port port-id_J3_48 -pg 1 -lvl 4 -x 990 -y 3010 -defaultsOSRD
+preplace port port-id_J3_49 -pg 1 -lvl 4 -x 990 -y 3040 -defaultsOSRD
+preplace port port-id_J3_52 -pg 1 -lvl 4 -x 990 -y 3070 -defaultsOSRD
+preplace port port-id_J4_18 -pg 1 -lvl 4 -x 990 -y 3190 -defaultsOSRD
+preplace port port-id_J4_19 -pg 1 -lvl 4 -x 990 -y 3100 -defaultsOSRD
+preplace port port-id_J4_34 -pg 1 -lvl 4 -x 990 -y 3220 -defaultsOSRD
+preplace port port-id_J4_35 -pg 1 -lvl 4 -x 990 -y 3130 -defaultsOSRD
+preplace port port-id_J4_36 -pg 1 -lvl 4 -x 990 -y 3280 -defaultsOSRD
+preplace port port-id_J4_37 -pg 1 -lvl 4 -x 990 -y 3160 -defaultsOSRD
+preplace port port-id_J4_38 -pg 1 -lvl 4 -x 990 -y 3310 -defaultsOSRD
+preplace portBus LED1 -pg 1 -lvl 3 -x 850 -y 150 -defaultsOSRD -top
+preplace portBus LED2 -pg 1 -lvl 3 -x 820 -y 150 -defaultsOSRD -top
+preplace portBus J3_03 -pg 1 -lvl 4 -x 990 -y 1540 -defaultsOSRD
+preplace portBus J3_02 -pg 1 -lvl 4 -x 990 -y 190 -defaultsOSRD
+preplace portBus J3_04 -pg 1 -lvl 4 -x 990 -y 220 -defaultsOSRD
+preplace portBus J3_05 -pg 1 -lvl 4 -x 990 -y 1570 -defaultsOSRD
+preplace portBus J3_06 -pg 1 -lvl 4 -x 990 -y 250 -defaultsOSRD
+preplace portBus J3_07 -pg 1 -lvl 4 -x 990 -y 1600 -defaultsOSRD
+preplace portBus J3_08 -pg 1 -lvl 4 -x 990 -y 280 -defaultsOSRD
+preplace portBus J3_09 -pg 1 -lvl 4 -x 990 -y 1630 -defaultsOSRD
+preplace portBus J3_10 -pg 1 -lvl 4 -x 990 -y 310 -defaultsOSRD
+preplace portBus J3_11 -pg 1 -lvl 4 -x 990 -y 1660 -defaultsOSRD
+preplace portBus J3_12 -pg 1 -lvl 4 -x 990 -y 340 -defaultsOSRD
+preplace portBus J3_13 -pg 1 -lvl 4 -x 990 -y 1690 -defaultsOSRD
+preplace portBus J3_14 -pg 1 -lvl 4 -x 990 -y 370 -defaultsOSRD
+preplace portBus J3_15 -pg 1 -lvl 4 -x 990 -y 1720 -defaultsOSRD
+preplace portBus J3_16 -pg 1 -lvl 4 -x 990 -y 400 -defaultsOSRD
+preplace portBus J3_17 -pg 1 -lvl 4 -x 990 -y 1750 -defaultsOSRD
+preplace portBus J3_18 -pg 1 -lvl 4 -x 990 -y 430 -defaultsOSRD
+preplace portBus J3_19 -pg 1 -lvl 4 -x 990 -y 1780 -defaultsOSRD
+preplace portBus J3_20 -pg 1 -lvl 4 -x 990 -y 460 -defaultsOSRD
+preplace portBus J3_21 -pg 1 -lvl 4 -x 990 -y 1810 -defaultsOSRD
+preplace portBus J3_22 -pg 1 -lvl 4 -x 990 -y 490 -defaultsOSRD
+preplace portBus J3_23 -pg 1 -lvl 4 -x 990 -y 1840 -defaultsOSRD
+preplace portBus J3_24 -pg 1 -lvl 4 -x 990 -y 520 -defaultsOSRD
+preplace portBus J3_27 -pg 1 -lvl 4 -x 990 -y 1870 -defaultsOSRD
+preplace portBus J3_28 -pg 1 -lvl 4 -x 990 -y 550 -defaultsOSRD
+preplace portBus J3_29 -pg 1 -lvl 4 -x 990 -y 1900 -defaultsOSRD
+preplace portBus J3_30 -pg 1 -lvl 4 -x 990 -y 580 -defaultsOSRD
+preplace portBus J3_31 -pg 1 -lvl 4 -x 990 -y 1930 -defaultsOSRD
+preplace portBus J3_34 -pg 1 -lvl 4 -x 990 -y 610 -defaultsOSRD
+preplace portBus J3_35 -pg 1 -lvl 4 -x 990 -y 1960 -defaultsOSRD
+preplace portBus J3_36 -pg 1 -lvl 4 -x 990 -y 640 -defaultsOSRD
+preplace portBus J3_37 -pg 1 -lvl 4 -x 990 -y 1990 -defaultsOSRD
+preplace portBus J3_38 -pg 1 -lvl 4 -x 990 -y 670 -defaultsOSRD
+preplace portBus J3_39 -pg 1 -lvl 4 -x 990 -y 2020 -defaultsOSRD
+preplace portBus J3_40 -pg 1 -lvl 4 -x 990 -y 700 -defaultsOSRD
+preplace portBus J3_41 -pg 1 -lvl 4 -x 990 -y 2050 -defaultsOSRD
+preplace portBus PMOD3_1 -pg 1 -lvl 4 -x 990 -y 2770 -defaultsOSRD
+preplace portBus PMOD3_2 -pg 1 -lvl 4 -x 990 -y 1420 -defaultsOSRD
+preplace portBus PMOD3_3 -pg 1 -lvl 4 -x 990 -y 2800 -defaultsOSRD
+preplace portBus PMOD3_4 -pg 1 -lvl 4 -x 990 -y 1450 -defaultsOSRD
+preplace portBus PMOD3_5 -pg 1 -lvl 4 -x 990 -y 2830 -defaultsOSRD
+preplace portBus PMOD3_6 -pg 1 -lvl 4 -x 990 -y 1480 -defaultsOSRD
+preplace portBus PMOD3_7 -pg 1 -lvl 4 -x 990 -y 2860 -defaultsOSRD
+preplace portBus PMOD3_8 -pg 1 -lvl 4 -x 990 -y 1510 -defaultsOSRD
+preplace portBus J4_01 -pg 1 -lvl 4 -x 990 -y 2080 -defaultsOSRD
+preplace portBus J4_02 -pg 1 -lvl 4 -x 990 -y 730 -defaultsOSRD
+preplace portBus J4_03 -pg 1 -lvl 4 -x 990 -y 2110 -defaultsOSRD
+preplace portBus J4_04 -pg 1 -lvl 4 -x 990 -y 760 -defaultsOSRD
+preplace portBus J4_05 -pg 1 -lvl 4 -x 990 -y 2140 -defaultsOSRD
+preplace portBus J4_06 -pg 1 -lvl 4 -x 990 -y 790 -defaultsOSRD
+preplace portBus J4_07 -pg 1 -lvl 4 -x 990 -y 2170 -defaultsOSRD
+preplace portBus J4_08 -pg 1 -lvl 4 -x 990 -y 820 -defaultsOSRD
+preplace portBus J4_09 -pg 1 -lvl 4 -x 990 -y 2200 -defaultsOSRD
+preplace portBus J4_10 -pg 1 -lvl 4 -x 990 -y 850 -defaultsOSRD
+preplace portBus J4_11 -pg 1 -lvl 4 -x 990 -y 2230 -defaultsOSRD
+preplace portBus J4_12 -pg 1 -lvl 4 -x 990 -y 880 -defaultsOSRD
+preplace portBus J4_13 -pg 1 -lvl 4 -x 990 -y 2260 -defaultsOSRD
+preplace portBus J4_14 -pg 1 -lvl 4 -x 990 -y 910 -defaultsOSRD
+preplace portBus J4_16 -pg 1 -lvl 4 -x 990 -y 940 -defaultsOSRD
+preplace portBus J4_17 -pg 1 -lvl 4 -x 990 -y 2290 -defaultsOSRD
+preplace portBus J4_20 -pg 1 -lvl 4 -x 990 -y 970 -defaultsOSRD
+preplace portBus J4_21 -pg 1 -lvl 4 -x 990 -y 2320 -defaultsOSRD
+preplace portBus J4_22 -pg 1 -lvl 4 -x 990 -y 1000 -defaultsOSRD
+preplace portBus J4_23 -pg 1 -lvl 4 -x 990 -y 2350 -defaultsOSRD
+preplace portBus J4_24 -pg 1 -lvl 4 -x 990 -y 1030 -defaultsOSRD
+preplace portBus J4_25 -pg 1 -lvl 4 -x 990 -y 2380 -defaultsOSRD
+preplace portBus J4_26 -pg 1 -lvl 4 -x 990 -y 1060 -defaultsOSRD
+preplace portBus J4_27 -pg 1 -lvl 4 -x 990 -y 2410 -defaultsOSRD
+preplace portBus J4_28 -pg 1 -lvl 4 -x 990 -y 1090 -defaultsOSRD
+preplace portBus J4_29 -pg 1 -lvl 4 -x 990 -y 2440 -defaultsOSRD
+preplace portBus J4_30 -pg 1 -lvl 4 -x 990 -y 1120 -defaultsOSRD
+preplace portBus J4_31 -pg 1 -lvl 4 -x 990 -y 2470 -defaultsOSRD
+preplace portBus J4_32 -pg 1 -lvl 4 -x 990 -y 1150 -defaultsOSRD
+preplace portBus J4_33 -pg 1 -lvl 4 -x 990 -y 2500 -defaultsOSRD
+preplace portBus PMOD1_1 -pg 1 -lvl 4 -x 990 -y 2530 -defaultsOSRD
+preplace portBus PMOD1_2 -pg 1 -lvl 4 -x 990 -y 1180 -defaultsOSRD
+preplace portBus PMOD1_3 -pg 1 -lvl 4 -x 990 -y 2560 -defaultsOSRD
+preplace portBus PMOD1_4 -pg 1 -lvl 4 -x 990 -y 1210 -defaultsOSRD
+preplace portBus PMOD1_5 -pg 1 -lvl 4 -x 990 -y 2590 -defaultsOSRD
+preplace portBus PMOD1_6 -pg 1 -lvl 4 -x 990 -y 1240 -defaultsOSRD
+preplace portBus PMOD1_7 -pg 1 -lvl 4 -x 990 -y 2620 -defaultsOSRD
+preplace portBus PMOD1_8 -pg 1 -lvl 4 -x 990 -y 1270 -defaultsOSRD
+preplace portBus PMOD2_1 -pg 1 -lvl 4 -x 990 -y 2650 -defaultsOSRD
+preplace portBus PMOD2_2 -pg 1 -lvl 4 -x 990 -y 1300 -defaultsOSRD
+preplace portBus PMOD2_3 -pg 1 -lvl 4 -x 990 -y 2680 -defaultsOSRD
+preplace portBus PMOD2_4 -pg 1 -lvl 4 -x 990 -y 1330 -defaultsOSRD
+preplace portBus PMOD2_5 -pg 1 -lvl 4 -x 990 -y 2710 -defaultsOSRD
+preplace portBus PMOD2_6 -pg 1 -lvl 4 -x 990 -y 1360 -defaultsOSRD
+preplace portBus PMOD2_7 -pg 1 -lvl 4 -x 990 -y 2740 -defaultsOSRD
+preplace portBus PMOD2_8 -pg 1 -lvl 4 -x 990 -y 1390 -defaultsOSRD
+preplace inst axi_uartlite_1 -pg 1 -lvl 3 -x 830 -y 930 -defaultsOSRD
+preplace inst clock_generator_0 -pg 1 -lvl 1 -x 170 -y 230 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 170 -y 620 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 510 -y 730 -defaultsOSRD
+preplace inst util_vector_logic_NOT_0 -pg 1 -lvl 1 -x 170 -y 330 -defaultsOSRD
+preplace inst util_vector_logic_AND_1 -pg 1 -lvl 2 -x 510 -y 320 -defaultsOSRD
+preplace inst util_vector_logic_AND_2 -pg 1 -lvl 2 -x 510 -y 440 -defaultsOSRD
+preplace inst util_vector_logic_NOT_1 -pg 1 -lvl 1 -x 170 -y 430 -defaultsOSRD
+preplace inst write_generator -pg 1 -lvl 1 -x 170 -y 890 -defaultsOSRD
+preplace inst write_to_uart -pg 1 -lvl 2 -x 510 -y 910 -defaultsOSRD
+preplace inst xlconstant_HIGH_0 -pg 1 -lvl 3 -x 830 -y 1060 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -x 830 -y 570 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 3 -x 830 -y 670 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 3 -x 830 -y 770 -defaultsOSRD
+preplace netloc OSC_50MHZ_1 1 0 1 N 230
+preplace netloc SWITCH1_1 1 0 1 NJ 330
+preplace netloc SWITCH2_1 1 0 1 N 430
+preplace netloc axi_uartlite_1_tx 1 3 1 950 160n
+preplace netloc clock_generator_0_out_clk 1 1 1 320J 160n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 810 320 630 690
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 N 710
+preplace netloc processing_system7_0_GPIO_O 1 1 2 N 550 700
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 3 20 970 330 1010 680
+preplace netloc util_vector_logic_0_Res 1 1 1 320 310n
+preplace netloc util_vector_logic_AND_1_Res 1 2 1 700 190n
+preplace netloc util_vector_logic_AND_2_Res 1 2 1 710 180n
+preplace netloc util_vector_logic_NOT_1_Res 1 1 1 N 430
+preplace netloc write_generator_0_o_charsArray 1 1 1 N 890
+preplace netloc write_generator_0_o_charsArrayValid 1 1 1 N 910
+preplace netloc write_generator_o_numOfChars 1 1 1 N 870
+preplace netloc xlconstant_0_dout 1 3 1 940J 920n
+preplace netloc xlslice_0_Dout 1 1 3 330 510 NJ 510 940
+preplace netloc xlslice_1_Dout 1 3 1 970 190n
+preplace netloc xlslice_2_Dout 1 3 1 960 770n
+preplace netloc processing_system7_0_DDR 1 1 2 NJ 570 680
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ 590 690
+preplace netloc write_to_uart_0_M_AXI 1 2 1 N 910
+preplace cgraphic comment_0 place left 418 203 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 0 170 510 830 990
+pagesize -pg 1 -db -bbox -sgen -130 0 1130 3330
+"
+}
+{
+   """"""""""""""da_board_cnt"""""""""""""":"2",
+   """"""""""""""da_clkrst_cnt"""""""""""""":"2",
+   """"""""""""""da_ps7_cnt"""""""""""""":"1"
+}
+{
+   "/comment_0":"comment_0"
+}
