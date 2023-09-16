@@ -71,7 +71,7 @@
 #set_property -dict { PACKAGE_PIN P20 IOSTANDARD LVCMOS33 } [get_ports { J3_22 }];
 #set_property -dict { PACKAGE_PIN V20 IOSTANDARD LVCMOS33 } [get_ports { J3_23 }];
 #set_property -dict { PACKAGE_PIN W20 IOSTANDARD LVCMOS33 } [get_ports { J3_24 }];
-#set_property -dict { PACKAGE_PIN  T9 IOSTANDARD LVCMOS33 } [get_ports { J3_26 }]; /*MicroZed 7020 only*/
+#set_property -dict { PACKAGE_PIN  T9 IOSTANDARD LVCMOS33 } [get_ports { J3_26 }]; # MicroZed 7020 only
 #set_property -dict { PACKAGE_PIN V13 IOSTANDARD LVCMOS33 } [get_ports { J3_27 }];
 #set_property -dict { PACKAGE_PIN T14 IOSTANDARD LVCMOS33 } [get_ports { J3_28 }];
 #set_property -dict { PACKAGE_PIN T15 IOSTANDARD LVCMOS33 } [get_ports { J3_29 }];
@@ -87,16 +87,16 @@
 #set_property -dict { PACKAGE_PIN V18 IOSTANDARD LVCMOS33 } [get_ports { J3_39 }];
 #set_property -dict { PACKAGE_PIN N17 IOSTANDARD LVCMOS33 } [get_ports { J3_40 }];
 #set_property -dict { PACKAGE_PIN P18 IOSTANDARD LVCMOS33 } [get_ports { J3_41 }];
-#set_property -dict { PACKAGE_PIN  U7 IOSTANDARD LVCMOS33 } [get_ports { J3_42 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  V7 IOSTANDARD LVCMOS33 } [get_ports { J3_43 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  V8 IOSTANDARD LVCMOS33 } [get_ports { J3_44 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  W8 IOSTANDARD LVCMOS33 } [get_ports { J3_45 }]; /*MicroZed 7020 only*/
-#set_property         PACKAGE_PIN  K9                       [get_ports { J3_46 }]; /*analog input XADC_VP*/
-#set_property         PACKAGE_PIN L10                       [get_ports { J3_47 }]; /*analog input XADC_VN*/
-#set_property -dict { PACKAGE_PIN U10 IOSTANDARD LVCMOS33 } [get_ports { J3_48 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  T5 IOSTANDARD LVCMOS33 } [get_ports { J3_49 }]; /*MicroZed 7020 only*/
-#J3_50 and J3_51 are temperature-sensing diode pins not usable by PL (see UG475, Table1-12)
-#set_property -dict { PACKAGE_PIN  U5 IOSTANDARD LVCMOS33 } [get_ports { J3_52 }]; /*MicroZed 7020 only*/
+#set_property -dict { PACKAGE_PIN  U7 IOSTANDARD LVCMOS33 } [get_ports { J3_42 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  V7 IOSTANDARD LVCMOS33 } [get_ports { J3_43 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  V8 IOSTANDARD LVCMOS33 } [get_ports { J3_44 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  W8 IOSTANDARD LVCMOS33 } [get_ports { J3_45 }]; # MicroZed 7020 only
+#set_property         PACKAGE_PIN  K9                       [get_ports { J3_46 }]; # analog input XADC_VP
+#set_property         PACKAGE_PIN L10                       [get_ports { J3_47 }]; # analog input XADC_VN
+#set_property -dict { PACKAGE_PIN U10 IOSTANDARD LVCMOS33 } [get_ports { J3_48 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  T5 IOSTANDARD LVCMOS33 } [get_ports { J3_49 }]; # MicroZed 7020 only
+## J3_50 and J3_51 are temperature-sensing diode pins not usable by PL (see UG475, Table1-12)
+#set_property -dict { PACKAGE_PIN  U5 IOSTANDARD LVCMOS33 } [get_ports { J3_52 }]; # MicroZed 7020 only
 
 ############  J4  ############
 #set_property -dict { PACKAGE_PIN J19 IOSTANDARD LVCMOS33 } [get_ports { J4_01 }];
@@ -115,8 +115,8 @@
 #set_property -dict { PACKAGE_PIN E17 IOSTANDARD LVCMOS33 } [get_ports { J4_14 }];
 #set_property -dict { PACKAGE_PIN L20 IOSTANDARD LVCMOS33 } [get_ports { J4_16 }];
 #set_property -dict { PACKAGE_PIN L19 IOSTANDARD LVCMOS33 } [get_ports { J4_17 }];
-#set_property -dict { PACKAGE_PIN Y12 IOSTANDARD LVCMOS33 } [get_ports { J4_18 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN Y13 IOSTANDARD LVCMOS33 } [get_ports { J4_19 }]; /*MicroZed 7020 only*/
+#set_property -dict { PACKAGE_PIN Y12 IOSTANDARD LVCMOS33 } [get_ports { J4_18 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN Y13 IOSTANDARD LVCMOS33 } [get_ports { J4_19 }]; # MicroZed 7020 only
 #set_property -dict { PACKAGE_PIN K17 IOSTANDARD LVCMOS33 } [get_ports { J4_20 }];
 #set_property -dict { PACKAGE_PIN K18 IOSTANDARD LVCMOS33 } [get_ports { J4_21 }];
 #set_property -dict { PACKAGE_PIN J18 IOSTANDARD LVCMOS33 } [get_ports { J4_22 }];
@@ -131,8 +131,8 @@
 #set_property -dict { PACKAGE_PIN L15 IOSTANDARD LVCMOS33 } [get_ports { J4_31 }];
 #set_property -dict { PACKAGE_PIN K16 IOSTANDARD LVCMOS33 } [get_ports { J4_32 }];
 #set_property -dict { PACKAGE_PIN J16 IOSTANDARD LVCMOS33 } [get_ports { J4_33 }];
-#set_property -dict { PACKAGE_PIN V11 IOSTANDARD LVCMOS33 } [get_ports { J4_34 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN V10 IOSTANDARD LVCMOS33 } [get_ports { J4_35 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  V5 IOSTANDARD LVCMOS33 } [get_ports { J4_36 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  W6 IOSTANDARD LVCMOS33 } [get_ports { J4_37 }]; /*MicroZed 7020 only*/
-#set_property -dict { PACKAGE_PIN  V6 IOSTANDARD LVCMOS33 } [get_ports { J4_38 }]; /*MicroZed 7020 only*/
+#set_property -dict { PACKAGE_PIN V11 IOSTANDARD LVCMOS33 } [get_ports { J4_34 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN V10 IOSTANDARD LVCMOS33 } [get_ports { J4_35 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  V5 IOSTANDARD LVCMOS33 } [get_ports { J4_36 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  W6 IOSTANDARD LVCMOS33 } [get_ports { J4_37 }]; # MicroZed 7020 only
+#set_property -dict { PACKAGE_PIN  V6 IOSTANDARD LVCMOS33 } [get_ports { J4_38 }]; # MicroZed 7020 only
