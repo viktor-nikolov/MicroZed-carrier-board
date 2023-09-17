@@ -6,7 +6,7 @@ The HW design was done in Vivado 2023.1. Separate designs for MicroZed 7010 and 
 
 ## Demo functionality
 
-##### The demo does the following:
+#### The demo does the following:
 
 - Board's LED1 and LED2 blink with 2.5 Hz frequency.
 
@@ -25,7 +25,7 @@ The HW design was done in Vivado 2023.1. Separate designs for MicroZed 7010 and 
 
 - Pins with even pin number on J3, J4 and PMODs provide the square wave signal of frequency 80.6 Hz.
 
-##### Following pins are <ins>not used</ins> by the demo:
+### Following pins are <ins>not used</ins> by the demo:
 
 - J3_32_UART_RX &ndash; serial receive pin from the USB-to-UART chip.
 
