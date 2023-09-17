@@ -49,7 +49,7 @@ The HW design was done in Vivado 2023.1. Separate designs for MicroZed 7010 and 
 
 ## Demo HW design and SW code
 
-The demo uses simple HW design and standalone bare-metal code running on a ZYNQ ARM core.
+The demo uses a simple HW design and a standalone bare-metal code running on the ZYNQ ARM core.
 
 Three EMIO GPIO pins are exposed from the ZYNQ Processing System. They are then sliced to three separate signals.
 
@@ -58,12 +58,18 @@ First signal drives the LEDs. Activation of a switch drives a LED low despite GP
 Second GPIO signal is connected to ports with even pin numbers. Third GPIO signal drives ports with odd pin numbers.
 
 - Note: I didn't create and connect 106 output ports in the Vivado Diagram by clicking and dragging.:smiley: I created a TCL script using [create_bd_port](https://docs.xilinx.com/r/en-US/ug835-vivado-tcl-commands/create_bd_port) and [connect_bd_net](https://docs.xilinx.com/r/en-US/ug835-vivado-tcl-commands/connect_bd_net) commands.
-  For example the port J3_02 was added to the diagram by a command: 
+  For example the port J3_02 was added to the diagram by the command: 
   
   ```
   create_bd_port -dir O -type data J3_02; connect_bd_net [get_bd_pins /xlslice_1/Dout] [get_bd_ports /J3_02]
   ```
 
 Instance of a [clock_generator](board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.srcs/sources_1/new/clock_generator.v) module descales input 50 MHz signal from the oscillator X1 by factor 10,000.
+
+Sample UART serial output is generated purely by the Programmable Logic on the ZYNQ FPGA.
+The module [write_generator](board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.srcs/sources_1/new/write_generator.v) produces series of strings containing increasing numbers from 00000 to 16383.
+The helper module [write_to_uart](board_demo_MicroZed_7020_hw/board_demo_MicroZed_7020_hw.srcs/sources_1/new/write_to_uart.v) then sends the string to the AXI UART Lite IP via the AXI bus.
+
+The Processing System application [board_demo](board_demo_MicroZed_7020_Vitis_workspace/board_demo/src/board_demo.cpp) is fairly simple. It initializes the GPIO driver and then changes state of the three GPIO signals in an infinite loop to generate square wave signals of different frequencies.
 
 <img title="" src="Vivado_Diagram.png" alt="" width="592">
