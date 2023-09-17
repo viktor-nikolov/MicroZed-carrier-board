@@ -1,5 +1,7 @@
 # Board demo HW & SW
 
+To run the demo on the board: Open [MicroZed 7010](board_demo_MicroZed_7010_Vitis_workspace) or [MicroZed 7020](board_demo_MicroZed_7020_Vitis_workspace) workspace in Vitis 2023.1. Run Build All. Program Device and then run the board_demo application.
+
 ## Demo functionality
 
 The demo does the following:
@@ -45,7 +47,7 @@ Following pins are <ins>not used</ins> by the demo:
 
 ## Demo HW design and SW code
 
-The demo uses simple HW design and standalone bare-metal code running on a ZYNQ ARM core.
+The demo uses simple HW design and standalone bare-metal code running on a ZYNQ ARM core. The design was done in Vivado 2023.1.
 
 Three EMIO GPIO pins are exposed from the ZYNQ Processing System. They are then sliced to three separate signals.
 
