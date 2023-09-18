@@ -1,12 +1,26 @@
 # MicroZed development carrier board
 
-This repository provides design and production files for a [MicroZed](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed/) development carrier board.
+This repository provides KiCad design and production files for a [MicroZed](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed/) development carrier board.
 
-**List of features:**
+#### List of features:
 
-- 106 digital I/O pins.
+- 106 digital I/O pins exposed via female headers.
+  
+  - 16 I/O pins work on 5 V (exposed via two PMOD headers), rest of the pins work on 3.3 V
 
-- x
+- 2 analog input pins XADC VP/VN
+
+- 2 LEDs
+
+- 2 push buttons
+
+- 50 MHz precision oscillator (intended as an external clock input to the FPGA Programmable Logic)
+
+- UART to USB on-board conversion chip with the micro-USB connector (intended to enable UART communication for the FPGA Programmable Logic)
+
+- Power input via micro-USB connector or via screw terminal. On board power switch.
+
+- Compatible with both [MicroZed 7010](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-z7mb-7z010-som-g-rev-h-3074457345644698173/?INTCMP=AMER-ECOMM-AVNET-BOARDS-AVT-INT-WEB-MICROZED-PRODUCTS-08282021) and [MicroZed 7020](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-z7mb-7z020-som-g-rev-h-3074457345644698177/?INTCMP=AMER-ECOMM-AVNET-BOARDS-AVT-INT-WEB-MICROZED-PRODUCTS-08282021).
 
 &nbsp;
 
