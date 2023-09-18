@@ -11,6 +11,6 @@
 
 I designed the board in [KiCad 7.0](https://www.kicad.org/).
 
-See the [list of all parts](MicroZed_carrier_board_v4_parts.pdf) used in the design (also provides as [an Excel file](MicroZed_carrier_board_v4_parts.xlsx))
+See the [list of all parts](MicroZed_carrier_board_v4_parts.pdf) used in the design (also provided as [an Excel file](MicroZed_carrier_board_v4_parts.xlsx))
 
 
