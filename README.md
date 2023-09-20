@@ -4,7 +4,7 @@ This repository provides KiCad design and production files for a [MicroZed](http
 
 #### List of features:
 
-- 106 digital I/O pins exposed via female headers.
+- 106 digital I/O pins exposed via female headers
   
   - 16 I/O pins work on 5 V (exposed via two PMOD headers), rest of the pins work on 3.3 V
 
