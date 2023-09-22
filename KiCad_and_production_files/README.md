@@ -1,6 +1,6 @@
 # KiCad design files and production files
 
-#### Please see [repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki/1.-HW-design) for details.
+### Please see [repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki/1.-HW-design) for details.
 
 I designed the board in [KiCad 7.0](https://www.kicad.org/).
 
