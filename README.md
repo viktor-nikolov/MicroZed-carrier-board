@@ -24,6 +24,8 @@ This repository provides KiCad design and production files for a [MicroZed](http
 
 - Compatible with both [MicroZed 7010](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-z7mb-7z010-som-g-rev-h-3074457345644698173/?INTCMP=AMER-ECOMM-AVNET-BOARDS-AVT-INT-WEB-MICROZED-PRODUCTS-08282021) and [MicroZed 7020](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-z7mb-7z020-som-g-rev-h-3074457345644698177/?INTCMP=AMER-ECOMM-AVNET-BOARDS-AVT-INT-WEB-MICROZED-PRODUCTS-08282021).
 
+&nbsp;
+
 <img src="pictures\Carrier_board_with_MicroZed.jpg" title="" alt="Carrier board with MicroZed" width="419">    <img src="pictures\Carrier_board_detail.jpg" title="" alt="Carrier board detail" width="419">
 
 See other pictures [here](pictures).
