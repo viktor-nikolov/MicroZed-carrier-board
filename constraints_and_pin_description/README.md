@@ -1,4 +1,4 @@
-### Please see [repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki) for details.
+### Please see [repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki#pinout) for details.
 
 # Constraints files and pin description
 
