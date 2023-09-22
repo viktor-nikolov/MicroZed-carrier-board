@@ -2,6 +2,8 @@
 
 This repository provides KiCad design and production files for a [MicroZed](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed/) development carrier board.
 
+### Please see [repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki) for details.
+
 #### List of features:
 
 - 106 digital I/O pins exposed via female headers
