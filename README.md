@@ -8,7 +8,7 @@ This repository provides KiCad design and production files for a [MicroZed](http
   
   - 16 I/O pins work on 5 V (exposed via two PMOD headers), rest of the pins work on 3.3 V
 
-- 2 analog input pins XADC VP/VN
+- 2 dedicated analog input pins XADC VP/VN
 
 - 2 LEDs
 
