@@ -2,7 +2,9 @@
 
 This repository provides KiCad design and production files for a [MicroZed](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed/) development carrier board.
 
-### Please see [repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki) for details.
+### Please see [the repository's Wiki](https://github.com/viktor-nikolov/MicroZed-carrier-board/wiki) for details.
+
+You are welcome to leave feedback in [the discussion](https://github.com/viktor-nikolov/MicroZed-carrier-board/discussions).
 
 #### List of features:
 
