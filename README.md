@@ -1,3 +1,5 @@
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
 # MicroZed development carrier board
 
 This repository provides KiCad design and production files for a [MicroZed](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed/) development carrier board.
