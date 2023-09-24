@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+
 # Board demo HW & SW
 
 To run the demo on the board: Open [MicroZed 7010 workspace](board_demo_MicroZed_7010_Vitis_workspace) or [MicroZed 7020 workspace](board_demo_MicroZed_7020_Vitis_workspace) in Vitis 2023.1. Run Build All. Program Device and then run the board_demo application.
