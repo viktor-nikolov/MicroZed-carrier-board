@@ -8,7 +8,7 @@
     (title "MicroZed development carrier board")
     (date "2023-08-19")
     (rev "4")
-    (comment 1 "               License: BSD 2-Clause License")
+    (comment 1 "               License: Creative Commons Zero")
     (comment 3 "               (c) 2023 Viktor Nikolov")
   )
 
