@@ -22,7 +22,7 @@ You are welcome to leave feedback in [the discussion](https://github.com/viktor-
 
 - 50 MHz precision oscillator (intended as an external clock input to the FPGA Programmable Logic)
 
-- UART to USB on-board conversion chip with the micro-USB connector (intended to enable UART communication for the FPGA Programmable Logic)
+- UART to USB conversion chip with the micro-USB connector (intended to enable UART communication for the FPGA Programmable Logic)
 
 - Power input via micro-USB connector or via screw terminal. On board power switch.
 
