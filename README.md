@@ -30,6 +30,6 @@ You are welcome to leave feedback in [the discussion](https://github.com/viktor-
 
 &nbsp;
 
-<img src="pictures\Carrier_board_with_MicroZed.jpg" title="" alt="Carrier board with MicroZed" width="419">    <img src="pictures\Carrier_board_detail.jpg" title="" alt="Carrier board detail" width="419">    <img src="pictures\PCB_front_scan.jpg" title="" alt="PCB front scan" width="419">
+<img src="pictures\Carrier_board_with_MicroZed_2.jpg" title="" alt="Carrier board with MicroZed" width="419">    <img src="pictures\Carrier_board_with_MicroZed.jpg" title="" alt="Carrier board with MicroZed" width="419">    <img src="pictures\Carrier_board_detail.jpg" title="" alt="Carrier board detail" width="419">    <img src="pictures\PCB_front_scan.jpg" title="" alt="PCB front scan" width="419">
 
 See other pictures [here](pictures).
